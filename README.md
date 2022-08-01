@@ -1,0 +1,3 @@
+Czochralski Reduced Order Model
+
+This is a single MATLAB script that is the basis for this publication.  Here, I devise an algebraic model to predict oxygen concentration in molten silicon (produced using a method known as Czochralski method) given a number of physical parameters about the system.  The model is built on physical arguments, though three parameters are difficult to assess experimentally.  Thus, I used the optimization toolbox to fit the model to a few limiting cases in the experimental data to deduce the experimental values of these three parameters.
