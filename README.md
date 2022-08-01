@@ -13,8 +13,8 @@ Lumped-parameter models are derived from boundary layer and other physical argum
 ### Relevant files:
 - `CzO_Data.mat` - MATLAB data file containing data from numerous Czochralski direct numerical simnulations
 - `CzROM_newmono_v5.m` - Main MATLAB file to run
-- `Physically-based, lumped-parameter models for the prediction of oxygen concentration during Czochralski growth of silicon crystals.pdf`
+- `Physically-based, lumped-parameter models for the prediction of oxygen concentration during Czochralski growth of silicon crystals.pdf` - Publication 
 
 ## Setup and Use
 
-Make sure CzO_Data.mat is present and in the MATLAB path.  The entire model is executed from the `CzROM_newmono_v5.m` MATLAB script.  The script reproduces the calculations and plots found in Figures 2 and 3 of the above publication.
+Make sure CzO_Data.mat is present and in the MATLAB path.  The entire model is executed from the `CzROM_newmono_v5.m` MATLAB script.  The script was last run successfully on MATLAB 2021b with Optimization Toolbox installed.  The script reproduces the calculations and plots found in Figures 2 and 3 of the above publication.
