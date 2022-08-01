@@ -6,7 +6,12 @@ An algebraic model is devised to predict oxygen concentration in molten silicon 
 
 For an in-depth understanding of model derivation, please see the included PDF or visit here: [https://doi.org/10.1016/j.jcrysgro.2021.126384](https://doi.org/10.1016/j.jcrysgro.2021.126384)
 
-### Abstract
+The script reproduces the calculations and plots found in Figures 2 and 3 of the above publication:
+
+![Ekman-Grashof model](./EkGrPlot.png)
+![Ekman model](./EkPlot.png)
+
+### Publication Abstract
 
 Lumped-parameter models are derived from boundary layer and other physical arguments to describe oxygen concentration levels during the Czochralski (CZ) growth of silicon. These models are assessed against predictions from a detailed, high-fidelity 2D-3D numerical simulation of the entire CZ puller, whose solutions are realistic but require intense computational effort. Comparisons of predictions show that the lumped-parameter model captures the correct trends of melt oxygen levels influenced by melt height, crucible rotation, and crystal rotation. A simple fitting of coefficients provides reasonably good quantitative predictions by the lumped-parameter model, and its near-instantaneous computations make it an interesting candidate for real-time growth optimization and control. Possible model improvements and extensions are discussed.
 
@@ -17,4 +22,4 @@ Lumped-parameter models are derived from boundary layer and other physical argum
 
 ## Setup and Use
 
-Make sure CzO_Data.mat is present and in the MATLAB path.  The entire model is executed from the `CzROM_newmono_v5.m` MATLAB script.  The script was last run successfully on MATLAB 2021b with Optimization Toolbox installed.  The script reproduces the calculations and plots found in Figures 2 and 3 of the above publication.
+Make sure CzO_Data.mat is present and in the MATLAB path.  The entire model is executed from the `CzROM_newmono_v5.m` MATLAB script.  The script was last run successfully on MATLAB 2021b with Optimization Toolbox installed.  
