@@ -1,4 +1,4 @@
-# init
+# Czochralski Lumped Parameter Oxygen Transport Model
 
 ## Description
 
